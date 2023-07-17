@@ -1,0 +1,11 @@
+name                = "my-env"
+environment         = "dev"
+availability_zones  = ["eu-central-1a", "eu-central-1b"]
+vpc_id = "vpc-01fc5789a15da6cc2"
+alb_tls_cert_arn = "arn:aws:acm:eu-central-1:987109199685:certificate/349aff69-27f1-4731-8203-bb4836d8796b"
+public_subnets = ["subnet-07561266e1c3e12da","subnet-05ee0f30731644018"]
+private_subnets =  ["subnet-0edccafc6fde22986","subnet-0046f6fd53ed3bdc8"]
+health_check_path = "/"
+container_cpu = 512
+container_memory = 1024
+container_port = 5001
